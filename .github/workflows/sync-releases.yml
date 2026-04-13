@@ -2,7 +2,7 @@ name: Sync Upstream Releases
 
 on:
   schedule:
-    - cron: '0 3 * * *' # 每天北京时间 11:00 自动检查
+    #- cron: '0 3 * * *' # 每天北京时间 11:00 自动检查
   workflow_dispatch: # 允许手动点击运行
 
 permissions:
